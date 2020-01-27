@@ -32,3 +32,4 @@ jobs:
       install: skip
       script:
         - java -XX:+PrintFlagsFinal -version
+        - free -m
