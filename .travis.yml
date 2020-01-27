@@ -31,5 +31,5 @@ jobs:
       jdk: openjdk11
       install: skip
       script:
-        - java -XX:+PrintFlagsFinal -version
+        - JAVA_OPTS=-Xmx3G java -XX:+PrintFlagsFinal -version
         - free -m
