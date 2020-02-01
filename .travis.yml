@@ -34,6 +34,7 @@ jobs:
           - '$HOME/.gradle'
           - '.gradle'
           - '~/jdk-11.0.5+10'
+          - '/home/travis/install4j'
       before_install:
         - java --version
         - ./.travis/install_java_11.0.5
